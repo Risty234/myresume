@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style4.css">
+    <!--box icons-->
+    <!--custom css-->
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Risty Paul</h1>
+            <p>I'm a MSc graduate who loves coding and chose to be a full stack developer
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/ristypaul/"> <i class="fa-brands fa-linkedin"></i></a>
+                 
+            </div>
+
+            <a href="./image/Risty Paul RESUMEE (2).pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./image/pic-8.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/pic-1.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>Basically, a MSc graduate who loves coding and chose to be a PHP full stack developer. I love to explore new places and interact with people of different cultures. Seeking for an opportunity where I
+                can utilise my skills for the success of the organisation.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="educ-container">
+            <div class="educ-box">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>PHP Full stack development(pursuing)</h3>
+                <h4>Avodha</h4>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="educ-box">
+                <i class="fa-solid fa-flask-vial"></i>
+                <h3>MSc Chemistry</h3>
+                <h4>Nirmala College</h4>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="educ-box">
+                <i class="fa-solid fa-vial"></i>
+                <h3>BSc Chemistry</h3>
+                <h4>St.Peter's College</h4>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="educ-box">
+                <i class="fa-solid fa-display"></i>
+                <h3>Diploma in Multilingual Computer App.</h3>
+                <h4>C-DAC, GIST-PACE</h4>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./image/ch-6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Caffeine content</h4>
+                    <p>Determination of caffeine content in various tea samples using
+                        HPLC-UV technique.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./image/ch-4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Phytochemical Analysis</h4>
+                    <p>Qualitative and quantitative phytochemical analysis of Coccinia
+                        grandis.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./image/ch-8.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project Trainee</h4>
+                    <p>I worked as a project trainee on a project titled 'Self-assembly
+                        of unsymmetrical pi-conjugated systems' in
+                        School of Chemical Sciences.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span> Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2024 by Risty Paul |All rights reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--custom js-->
+    <script src="./portf.js"></script>
+    
+
+</body>
+
+</html>
